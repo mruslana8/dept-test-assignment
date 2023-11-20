@@ -5,6 +5,7 @@ I used Cucumber and Playwright, Page Object Model for my assignment.
 
 _To run project:_
 + npm install
++ npx playwright install
 + npm run test
 
 
