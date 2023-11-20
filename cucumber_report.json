@@ -1,0 +1,619 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-as-a-problem-user;problem-user-logs-in",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Problem user logs in",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1401188066
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I visit a login page",
+            "match": {
+              "location": "step-definitions/login-step.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1290418422
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I fill the login form with \"problem_user\" and \"secret_sauce\"",
+            "match": {
+              "location": "step-definitions/login-step.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2201476868
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I am \"logged in\" with \"\"",
+            "match": {
+              "location": "step-definitions/login-step.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 28983024
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 76088476
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@development",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-as-a-problem-user;problem-user-logs-in",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Problem user logs in",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 352102269
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I visit a login page",
+            "match": {
+              "location": "step-definitions/login-step.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 881601920
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I fill the login form with \"problem_user\" and \"wrong_password\"",
+            "match": {
+              "location": "step-definitions/login-step.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1950062094
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I am \"not logged in\" with \"Epic sadface: Username and password do not match any user in this service\"",
+            "match": {
+              "location": "step-definitions/login-step.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3524748
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 67618739
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@development",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-as-a-problem-user;problem-user-logs-in",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Problem user logs in",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 305488445
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I visit a login page",
+            "match": {
+              "location": "step-definitions/login-step.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 850463027
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I fill the login form with \"locked_out_user\" and \"secret_sauce\"",
+            "match": {
+              "location": "step-definitions/login-step.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1939483350
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I am \"not logged in\" with \"Epic sadface: Sorry, this user has been locked out.\"",
+            "match": {
+              "location": "step-definitions/login-step.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2319941
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 98376037
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@development",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-as-a-problem-user",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login as a problem user",
+    "tags": [],
+    "uri": "features/login.feature"
+  },
+  {
+    "description": "  As a user I want to sort products in Products List Page (PLP)",
+    "elements": [
+      {
+        "description": "",
+        "id": "sorting;default-sorting-is-a-sorting-in-ascending-order-by-name",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Default sorting is a sorting in ascending order by Name",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 323220021
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I logged in",
+            "match": {
+              "location": "step-definitions/sorting-step.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2861316229
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I am on PLP",
+            "match": {
+              "location": "step-definitions/sorting-step.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 26858775
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "products are sorted by \"name\" \"ascending\"",
+            "match": {
+              "location": "step-definitions/sorting-step.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30110757
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 54656015
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "sorting;user-sorts-products",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "User sorts products",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 336901917
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I logged in",
+            "match": {
+              "location": "step-definitions/sorting-step.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3025324229
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I am on PLP",
+            "match": {
+              "location": "step-definitions/sorting-step.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20907317
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I sort products by \"name\" \"ascending\"",
+            "match": {
+              "location": "step-definitions/sorting-step.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 630017822
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "products are sorted by \"name\" \"ascending\"",
+            "match": {
+              "location": "step-definitions/sorting-step.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 19982869
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 55920434
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "sorting;user-sorts-products",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "User sorts products",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 321667575
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I logged in",
+            "match": {
+              "location": "step-definitions/sorting-step.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2892704527
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I am on PLP",
+            "match": {
+              "location": "step-definitions/sorting-step.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 23447030
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I sort products by \"name\" \"descending\"",
+            "match": {
+              "location": "step-definitions/sorting-step.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 634003561
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "products are sorted by \"name\" \"descending\"",
+            "match": {
+              "location": "step-definitions/sorting-step.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21578801
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 57345005
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "sorting;user-sorts-products",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "User sorts products",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 308157317
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I logged in",
+            "match": {
+              "location": "step-definitions/sorting-step.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2914791251
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I am on PLP",
+            "match": {
+              "location": "step-definitions/sorting-step.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18019214
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I sort products by \"price\" \"ascending\"",
+            "match": {
+              "location": "step-definitions/sorting-step.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 628483489
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "products are sorted by \"price\" \"ascending\"",
+            "match": {
+              "location": "step-definitions/sorting-step.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 19343807
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 63684487
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "sorting;user-sorts-products",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "User sorts products",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 335653872
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I logged in",
+            "match": {
+              "location": "step-definitions/sorting-step.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2890896329
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I am on PLP",
+            "match": {
+              "location": "step-definitions/sorting-step.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18010439
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I sort products by \"price\" \"descending\"",
+            "match": {
+              "location": "step-definitions/sorting-step.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 627756389
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "products are sorted by \"price\" \"descending\"",
+            "match": {
+              "location": "step-definitions/sorting-step.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20232529
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 54420434
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "sorting",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Sorting",
+    "tags": [],
+    "uri": "features/sorting.feature"
+  }
+]

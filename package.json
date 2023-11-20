@@ -1,0 +1,19 @@
+{
+  "name": "dept-test-assignment",
+  "version": "1.0.0",
+  "description": "Test assignment for a position in DEPT®. https://www.saucedemo.com/v1",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/cucumber-js --require cucumber.js --require step-definitions/**/*.js -f json:cucumber_report.json",
+    "test:dev": "./node_modules/.bin/cucumber-js --require cucumber.js --require step-definitions/**/*.js -f json:cucumber_report.json --tags @development",
+    "report": "node reporter.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cucumber/cucumber": "^10.0.1",
+    "@playwright/test": "^1.39.0",
+    "cucumber-html-reporter": "^7.1.1",
+    "prettier": "^3.1.0"
+  }
+}
